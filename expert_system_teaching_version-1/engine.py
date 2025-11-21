@@ -43,7 +43,6 @@ class ForwardChainingEngine:
         while True:
             rules_fire = [r for r in self.rules if self.can_fire(r)]
             if not rules_fire:
-                print("no more rules can fire")
                 break
             rules_fire.sort(key=lambda r: (-r.priority, r.name))
             rule = rules_fire[0]
