@@ -1,4 +1,4 @@
-Test Case 1 — Premium Ultrabook (High Confidence)
+Test Case 1 — Premium Ultrabook
 Input: ['portable', 'long_battery', 'budget_high']
 
 Expected:
@@ -8,7 +8,7 @@ Expected:
 > How: This led to [recommend:premium_ultrabook]
 > Fired rules: Premium Ultrabook
 
-Test Case 2 — Gaming High End (Strong Confidence)
+Test Case 2 — Gaming High End
 Input: ['budget_high', 'gaming']
 
 Expected:
@@ -18,7 +18,7 @@ Expected:
 > How: This led to [recommend:high_end_gaming_laptop]
 > Fired rules: High-end Gaming
 
-Test Case 3 — Student Light Office (Budget Ultrabook)
+Test Case 3 — Budget Ultrabook
 Input: ['portable', 'budget_low', 'office_only']
 
 Expected:
